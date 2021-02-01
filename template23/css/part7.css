@@ -1,0 +1,14 @@
+.part_7 {
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.arrow {
+    border-style: none;
+    background: inherit;
+    margin-top: 200px;
+    font-size: 40px;
+    color: lightslategray;
+    outline: none;
+}

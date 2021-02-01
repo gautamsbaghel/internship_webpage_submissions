@@ -1,0 +1,41 @@
+.part_10 {
+    width: 100%;
+    background: red;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#part_10_h1 {
+    margin-left: 100px;
+    margin-top: 40px;
+    color: white;
+}
+
+.part_10_form {
+    margin-top: 35px;
+    margin-right: 100px;
+}
+
+.part_10_form form {
+    background: rgb(1, 1, 19);
+    display: inline-block;
+}
+
+#part_10_email {
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 15px;
+    height: 2em;
+    padding-right: 50px;
+}
+
+#part_10_btn {
+    font-size: 20px;
+    width: 7em;
+    border: none;
+    outline: none;
+    color: white;
+    background: inherit;
+}

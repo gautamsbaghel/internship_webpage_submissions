@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/part5.js"></script>
+    <script src="js/part7.js"></script>
+    <script src="js/part8.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> webpage layout 11</title>
+    <link rel="stylesheet" href="./css/part1.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/dropdown.css">
+    <link rel="stylesheet" href="./css/part3.css">
+    <link rel="stylesheet" href="./css/part4.css">
+    <link rel="stylesheet" href="./css/part5.css">
+    <link rel="stylesheet" href="./css/part6.css">
+    <link rel="stylesheet" href="./css/part7.css">
+    <link rel="stylesheet" href="./css/part8.css">
+    <link rel="stylesheet" href="./css/part9.css">
+    <link rel="stylesheet" href="./css/part10.css">
+    <link rel="stylesheet" href="./css/part11.css">
+</head>
+
+<body>
+    <hr>
+    <div class="part_1">
+        <div class="part_1-left">
+            <ul>
+                <li><select class="language">
+                    <option value="English" selected>English</option>
+                    <option value="Hindi">Hindi</option>
+                </select>
+                </li>
+                <li>
+                    <select class="currency">
+                        <option value="USD" selected>USD</option>
+                        <option value="INR">INR</option>
+                    </select>
+                </li>
+                <li>
+                    <i class="fa fa-mobile-phone"></i> 123-456-7890
+                </li>
+            </ul>
+        </div>
+        <div class="part_1-right">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-random"></i></a> Compare
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-heart-o"></i></a> Wishlist
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-user-o"></i></a> Login
+                </li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+
+    <div class="nav">
+        <div class="nav_div_1">
+            <ul class="nav_div_1_ul">
+                <li class="nav_div_1_ul_item">
+                    <img src="./images/shopping_cart.gif" height="30em" alt="">
+                </li>
+                <li class="nav_div_1_ul_item">
+                    <h2 class="nav_div_1_ul_item_text">Shopwise</h2>
+                </li>
+            </ul>
+        </div>
+
+        <div class="nav_div_2">
+
+            <div class="nav_div_dropdown">
+                <div class="dropdown">
+                    <div class="dropbtn">
+                        HOME<i class="fa fa-angle-down"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <a href="#" class="dowpdown-content-item">Link 1</a>
+                        <a href="#" class="dowpdown-content-item">Link 2</a>
+                        <a href="#" class="dowpdown-content-item">Link 3</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav_div_dropdown">
+                <div class="dropdown">
+                    <div class="dropbtn">
+                        PAGES <i class="fa fa-angle-down"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <a href="#" class="dowpdown-content-item">Link 1</a>
+                        <a href="#" class="dowpdown-content-item">Link 2</a>
+                        <a href="#" class="dowpdown-content-item">Link 3</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav_div_dropdown">
+                <div class="dropdown">
+                    <div class="dropbtn">
+                        PRODUCTS <i class="fa fa-angle-down"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <a href="#" class="dowpdown-content-item">Link 1</a>
+                        <a href="#" class="dowpdown-content-item">Link 2</a>
+                        <a href="#" class="dowpdown-content-item">Link 3</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav_div_dropdown">
+                <div class="dropdown">
+                    <div class="dropbtn">
+                        BLOG <i class="fa fa-angle-down"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <a href="#" class="dowpdown-content-item">Link 1</a>
+                        <a href="#" class="dowpdown-content-item">Link 2</a>
+                        <a href="#" class="dowpdown-content-item">Link 3</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav_div_dropdown">
+                <div class="dropdown">
+                    <div class="dropbtn">
+                        SHOP <i class="fa fa-angle-down"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <a href="#" class="dowpdown-content-item">Link 1</a>
+                        <a href="#" class="dowpdown-content-item">Link 2</a>
+                        <a href="#" class="dowpdown-content-item">Link 3</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav_div_dropdown">
+                <div class="dropdown">
+                    <div class="dropbtn">
+                        <a href="#" id="nav_div_link">CONTACT US</a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="nav_div_dropdown">
+                <a href="#"><i class="fa fa-search" id="search"></i></a>
+                <a href="#"><i class="fa fa-shopping-cart" id="cart"></i></a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="part_3">
+        <div class="part_3-content">
+            <ul>
+                <li id="part_3-content-1">50% off in all Products</li>
+                <li id="part_3-content-2">Man Fashion</li>
+                <li id="part_3-content-3">
+                    <button type="button">SHOP NOW</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="part_4">
+        <div class="part_4_div1">
+            <ul>
+                <li id="part_4-div1-content-1">Super Sale</li>
+                <li id="part_4-div1-content-2">New Collection</li>
+                <li id="part_4-div1-content-3"><a href="#">Shop Now</a></li>
+            </ul>
+        </div>
+        <div class="part_4_div2">
+            <ul>
+                <li id="part_4-div2-content-1">New Season</li>
+                <li id="part_4-div2-content-2">Sale 40% off</li>
+                <li id="part_4-div2-content-3"><a href="#">Shop Now</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="part_5">
+        <h1 style="text-align: center;"> Exclusive Product </h1>
+        <hr>
+        <div class="part_5-menu">
+            <ul>
+                <li><button type="button" onclick="change_image_section(0)">New Arrival</button></li>
+                <li><button type="button" onclick="change_image_section(1)">Best Sellers</button></li>
+                <li><button type="button" onclick="change_image_section(0)">Features</button></li>
+                <li><button type="button" onclick="change_image_section(1)">Special Offer</button></li>
+            </ul>
+        </div>
+        <div class="image_section">
+            <div class="part_5_product_card">
+                <div class="product_card_img">
+                    <img id="image_1" class="product_img" src="./images/part5img1.jpg" alt="">
+                </div>
+                <div class="product_card_decs">
+                    <h5 id="title_1" class="product_card_title"> Dress For Women</h5>
+                    <div class="product_price">
+                        <h4 id="new_price_1" class="product_card_price_new">$45</h4>
+                        <h5 class="product_card_price_old"><strike id="old_price_1">$55</strike> 35% Off</h5>
+                    </div>
+                    <div class="product_card_rating">
+                        <i id="r11" class="fa fa-star checked"></i>
+                        <i id="r12" class="fa fa-star checked"></i>
+                        <i id="r13" class="fa fa-star checked"></i>
+                        <i id="r14" class="fa fa-star"></i>
+                        <i id="r15" class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="part_5_product_card">
+                <div class="product_card_img">
+                    <img id="image_2" class="product_img" src="./images/part5img3.jpg" alt="">
+                </div>
+                <div class="product_card_decs">
+                    <h5 id="title_2" class="product_card_title"> leather Grey Tuxedo</h5>
+                    <div class="product_price">
+                        <h4 id="new_price_2" class="product_card_price_new">$55</h4>
+                        <h5 class="product_card_price_old"><strike id="old_price_2">$100</strike> 35% Off</h5>
+                    </div>
+                    <div class="product_card_rating">
+                        <i id="r21" class="fa fa-star checked"></i>
+                        <i id="r22" class="fa fa-star checked"></i>
+                        <i id="r23" class="fa fa-star checked"></i>
+                        <i id="r24" class="fa fa-star checked"></i>
+                        <i id="r25" class="fa fa-star checked"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="part_5_product_card">
+                <div class="product_card_img">
+                    <img id="image_3" class="product_img" src="./images/part5img2.jpg" alt="">
+                </div>
+                <div class="product_card_decs">
+                    <h5 id="title_3" class="product_card_title"> Women Full sleeve Dress </h5>
+                    <div class="product_price">
+                        <h4 id="new_price_3" class="product_card_price_new">$70</h4>
+                        <h5 class="product_card_price_old"><strike id="old_price_3">$120</strike> 35% Off</h5>
+                    </div>
+                    <div class="product_card_rating">
+                        <i id="r31" class="fa fa-star checked"></i>
+                        <i id="r32" class="fa fa-star checked"></i>
+                        <i id="r33" class="fa fa-star checked"></i>
+                        <i id="r34" class="fa fa-star checked"></i>
+                        <i id="r35" class="fa fa-star checked"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="part_5_product_card">
+                <div class="product_card_img">
+                    <img id="image_4" class="product_img" src="./images/part5img4.jpg" alt="">
+                </div>
+                <div class="product_card_decs">
+                    <h5 id="title_4" class="product_card_title"> Light Blue Shirt</h5>
+                    <div class="product_price">
+                        <h4 id="new_price_4" class="product_card_price_new">$50</h4>
+                        <h5 class="product_card_price_old"><strike id="old_price_4">$80</strike> 35% Off</h5>
+                    </div>
+                    <div class="product_card_rating">
+                        <i id="r41" class="fa fa-star checked"></i>
+                        <i id="r42" class="fa fa-star checked"></i>
+                        <i id="r43" class="fa fa-star checked"></i>
+                        <i id="r44" class="fa fa-star checked"></i>
+                        <i id="r45" class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="part_6">
+        <div class="part_6-content">
+            <ul>
+                <li id="part_6-content-4">New Season Trends</li>
+                <li id="part_6-content-2">Best Summer Collection</li>
+                <li id="part_6-content-1">50% off in all Products</li>
+                <li id="part_6-content-3">
+                    <button type="button">SHOP NOW</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="part_7">
+        <h1 style="text-align: center;"> Featured Products</h1>
+        <div class="image_section">
+            <div id="left_part">
+                <button class="arrow" onclick="change_feature_section(0);">
+                    <i class="fa fa-angle-left"></i>
+                </button>
+            </div>
+            <div class="part_5_product_card">
+                <div class="product_card_img">
+                    <img id="image_17" class="product_img" src="./images/part5img1.jpg" alt="">
+                </div>
+                <div class="product_card_decs">
+                    <h5 id="title_17" class="product_card_title"> Dress For Women</h5>
+                    <div class="product_price">
+                        <h4 id="new_price_17" class="product_card_price_new">$45</h4>
+                        <h5 class="product_card_price_old"><strike id="old_price_17">$55</strike> 35% Off</h5>
+                    </div>
+                    <div class="product_card_rating">
+                        <i id="r117" class="fa fa-star checked"></i>
+                        <i id="r127" class="fa fa-star checked"></i>
+                        <i id="r137" class="fa fa-star checked"></i>
+                        <i id="r147" class="fa fa-star"></i>
+                        <i id="r157" class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="part_5_product_card">
+                <div class="product_card_img">
+                    <img id="image_27" class="product_img" src="./images/part5img3.jpg" alt="">
+                </div>
+                <div class="product_card_decs">
+                    <h5 id="title_27" class="product_card_title"> leather Grey Tuxedo</h5>
+                    <div class="product_price">
+                        <h4 id="new_price_27" class="product_card_price_new">$55</h4>
+                        <h5 class="product_card_price_old"><strike id="old_price_27">$100</strike> 35% Off</h5>
+                    </div>
+                    <div class="product_card_rating">
+                        <i id="r217" class="fa fa-star checked"></i>
+                        <i id="r227" class="fa fa-star checked"></i>
+                        <i id="r237" class="fa fa-star checked"></i>
+                        <i id="r247" class="fa fa-star checked"></i>
+                        <i id="r257" class="fa fa-star checked"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="part_5_product_card">
+                <div class="product_card_img">
+                    <img id="image_37" class="product_img" src="./images/part5img2.jpg" alt="">
+                </div>
+                <div class="product_card_decs">
+                    <h5 id="title_37" class="product_card_title"> Women Full sleeve Dress </h5>
+                    <div class="product_price">
+                        <h4 id="new_price_37" class="product_card_price_new">$70</h4>
+                        <h5 class="product_card_price_old"><strike id="old_price_37">$120</strike> 35% Off</h5>
+                    </div>
+                    <div class="product_card_rating">
+                        <i id="r317" class="fa fa-star checked"></i>
+                        <i id="r327" class="fa fa-star checked"></i>
+                        <i id="r337" class="fa fa-star checked"></i>
+                        <i id="r347" class="fa fa-star checked"></i>
+                        <i id="r357" class="fa fa-star checked"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="part_5_product_card">
+                <div class="product_card_img">
+                    <img id="image_47" class="product_img" src="./images/part5img4.jpg" alt="">
+                </div>
+                <div class="product_card_decs">
+                    <h5 id="title_47" class="product_card_title"> Light Blue Shirt</h5>
+                    <div class="product_price">
+                        <h4 id="new_price_47" class="product_card_price_new">$50</h4>
+                        <h5 class="product_card_price_old"><strike id="old_price_47">$80</strike> 35% Off</h5>
+                    </div>
+                    <div class="product_card_rating">
+                        <i id="r417" class="fa fa-star checked"></i>
+                        <i id="r427" class="fa fa-star checked"></i>
+                        <i id="r437" class="fa fa-star checked"></i>
+                        <i id="r447" class="fa fa-star checked"></i>
+                        <i id="r457" class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="right_part">
+                <button class="arrow" type="button" onclick="change_feature_section(1);">
+                    <i class="fa fa-angle-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="part_8">
+        <div class="part_8_text">
+            <h1 id="client"> Our Client Says!</h1>
+            <p id="client_statement">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nihil perferendis commodi facilis maxime cum? Eaque inventore deleniti nulla architecto, beatae aspernatur maiores adipisci quidem nostrum, aut praesentium laborum dicta atque
+                reprehenderit. Harum molestiae eius architecto qui veniam nemo earum?</p>
+        </div>
+        <div class="part_8_profile">
+            <button id="part_8_left_btn" type="button" onclick="change_profile(0)">
+                <i class="fa fa-angle-left"></i>
+            </button>
+            <div id="part_8_profile_img">
+                <img id="imagepro_1" src="./images/part8proimg1.jpeg" alt="">
+            </div>
+            <div id="part_8_profile_info">
+                <ul>
+                    <li id="name"> John Becker</li>
+                    <li id="profession"> Designer</li>
+                </ul>
+            </div>
+            <button id="part_8_right_btn" type="button" onclick="change_profile(1)">
+                <i class="fa fa-angle-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="part_9">
+        <div class="part_9_div">
+            <div class="inner_div_1">
+                <i class="fa fa-truck icon"></i>
+            </div>
+            <div class="inner_div_2">
+                <h3 class="inner_head_1">Free delivery</h3>
+                <h5 class="inner_head_2">Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>Numquam, laboriosam?</h5>
+            </div>
+        </div>
+        <div class="part_9_div">
+            <div class="inner_div_1">
+                <i class="fa fa-money icon"></i>
+            </div>
+            <div id="part_9_line" class="inner_div_2">
+                <h3 class="inner_head_1">30 Day Returns</h3>
+                <h5 class="inner_head_2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br>Delectus, alias!</h5>
+            </div>
+        </div>
+        <div class="part_9_div">
+            <div class="inner_div_1">
+                <i class="fa fa-headphones icon"></i>
+            </div>
+            <div class="inner_div_2">
+                <h3 class="inner_head_1">24/7 Online Support</h3>
+                <h5 class="inner_head_2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>Unde, vel!</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="part_10">
+        <h1 id="part_10_h1"> Subscribe Our Newsletter </h1>
+        <div class="part_10_form">
+            <form>
+                <input id="part_10_email" type="email" placeholder="Enter Email Address">
+                <button id="part_10_btn" type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="part_11">
+        <div class="part_11_section_1">
+            <div class="section_1_div_1">
+                <ul class="part_11_ul">
+                    <li id="shopwise" class="part_11_ul_head ">
+                        <i class="fa fa-shopping-cart"></i> Shopwise</li>
+                    <li class="part_11_ul_item"> Lorem, ipsum dolor sit amet<br> consectetur adipisicing elit.<br> Exercitationem ea dolor reiciendis<br> vitae illo vero nihil perspiciatis <br>voluptates repellendus facere? </li>
+                    <li class="part_11_ul_item" id="social_media">
+
+
+                        <div class="part_11_ul_item_social_media" id="facebook">
+                            <a href="#">
+                                <i class="fa fa-facebook-official social_media_link"></i></a>
+                        </div>
+
+                        <div class="part_11_ul_item_social_media" id="twitter">
+                            <a href="#">
+                                <i class="fa fa-twitter social_media_link"></i></a>
+                        </div>
+
+                        <div class="part_11_ul_item_social_media" id="google_plus">
+                            <a href="#">
+                                <i class="fa fa-google-plus-official social_media_link"></i></a>
+                        </div>
+
+                        <div class="part_11_ul_item_social_media" id="youtube">
+                            <a href="#">
+                                <i class="fa fa-youtube-play social_media_link"></i></a>
+                        </div>
+
+                        <div class="part_11_ul_item_social_media" id="instagram">
+                            <a href="#">
+                                <i class="fa fa-instagram social_media_link"></i></a>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+            <div class="section_1_div_2">
+                <ul class="part_11_ul">
+                    <li class="part_11_ul_head ">Useful Links</li>
+                    <li class="part_11_ul_item"><a class="part_11_link" href="#">about us</a></li>
+                    <li class="part_11_ul_item"><a class="part_11_link" href="#">FAQ</a></li>
+                    <li class="part_11_ul_item"><a class="part_11_link" href="#">Location</a></li>
+                    <li class="part_11_ul_item"><a class="part_11_link" href="#">Affiliates</a></li>
+                    <li class="part_11_ul_item"><a class="part_11_link" href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="section_1_div_2">
+                <ul class="part_11_ul">
+                    <li class="part_11_ul_head "> Category </li>
+                    <li class="part_11_ul_item"><a class="part_11_link" href="#"> Men </a></li>
+                    <li class="part_11_ul_item"><a class="part_11_link" href="#"> Woman </a></li>
+                    <li class="part_11_ul_item"><a class="part_11_link" href="#"> Kids</a></li>
+                    <li class="part_11_ul_item"><a class="part_11_link" href="#"> Best Sellers </a></li>
+                    <li class="part_11_ul_item"><a class="part_11_link" href="#"> New Arrival </a></li>
+                </ul>
+            </div>
+            <div class="section_1_div_3">
+                <ul class="part_11_ul">
+                    <li class="part_11_ul_head ">My Account</li>
+                    <li class="part_11_ul_item"><a class="part_11_link" href="#">My Account</a></li>
+                    <li class="part_11_ul_item"><a class="part_11_link" href="#">Discount</a></li>
+                    <li class="part_11_ul_item"><a class="part_11_link" href="#">Returns</a></li>
+                    <li class="part_11_ul_item"><a class="part_11_link" href="#">Order History</a></li>
+                    <li class="part_11_ul_item"><a class="part_11_link" href="#">Order Tracking</a></li>
+                </ul>
+            </div>
+            <div class="section_1_div_1">
+                <ul class="part_11_ul">
+                    <li class="part_11_ul_head ">Contact Info</li>
+                    <li class="part_11_ul_item"><i class="fa fa-location-arrow"></i> 123 Street, Old Trafford, NewYork, USA </li>
+                    <li class="part_11_ul_item"> <i class="fa fa-envelope"></i> info@sitename.com </li>
+                    <li class="part_11_ul_item"> <i class="fa fa-mobile"></i> +456 678 789 65</li>
+                </ul>
+            </div>
+        </div>
+        <hr id="part_11_divide_line">
+        <div class="part_11_section_2">
+            <div class="section_2_div_1">
+                <h3>&copy; 2020 All Aights Reserved by Bestwebcreator </h3>
+            </div>
+            <div class="section_2_div_1">
+                <img class="part_11_logo" src="./images/logo_1.png" alt="">
+                <img class="part_11_logo" src="./images/logo_2.jpg" alt="">
+                <img class="part_11_logo" src="./images/logo_3.png" alt="">
+                <img class="part_11_logo" src="./images/logo_4.webp" alt="">
+                <img class="part_11_logo" src="./images/logo_5.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+
+</body>
+
+</html>

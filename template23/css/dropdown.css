@@ -1,0 +1,25 @@
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+
+.dowpdown-content-item {
+    float: none;
+    display: block;
+    text-align: left;
+    background: rgb(248, 225, 228);
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.dowpdown-content-item:hover {
+    background: whitesmoke;
+}
+
+.dropdown {
+    overflow: hidden;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

@@ -1,0 +1,44 @@
+.part_5 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.part_5-item {
+    display: inline-block;
+    width: 25%;
+    background-color: rgba(135, 206, 250, 0.2);
+    height: 15em;
+}
+
+.part_5-item ul {
+    list-style: none;
+    text-align: center;
+    margin-right: 40px;
+    margin-top: 12%;
+}
+
+
+/* icon */
+
+.part_5-icon {
+    color: rgb(29, 116, 145);
+    font-size: 35px;
+}
+
+
+/* heading */
+
+.part_5-item-heading {
+    font-size: 25px;
+    margin-top: 5%;
+}
+
+
+/* text */
+
+.part_5-item-text {
+    margin-top: 5%;
+    color: grey;
+}

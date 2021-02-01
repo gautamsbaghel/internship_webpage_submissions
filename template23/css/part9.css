@@ -1,0 +1,49 @@
+.part_9 {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon {
+    font-size: 35px;
+    color: grey;
+}
+
+.part_9_div {
+    display: inline-block;
+}
+
+.inner_div_1 {
+    padding: 5px 5px 5px 5px;
+    display: block;
+    text-align: center;
+}
+
+.inner_div_2 {
+    padding: 5px 5px 5px 5px;
+    display: block;
+}
+
+.inner_head_1 {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.inner_head_2 {
+    margin: 0;
+    padding-right: 10px;
+    text-align: center;
+    color: grey;
+}
+
+#part_9_line {
+    border-left: 2px solid lightgrey;
+    border-right: 2px solid lightgrey;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: -60px;
+    margin-right: -60px;
+}
